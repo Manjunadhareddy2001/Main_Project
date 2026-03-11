@@ -11,6 +11,7 @@ list.add(0,"dj");
 list.add(1,"og");
 list.add(2,"pg");
 list.add(3,"ab");
+list.add(4,"dd");
 
 
 ListIterator<Object> li=list.listIterator();
