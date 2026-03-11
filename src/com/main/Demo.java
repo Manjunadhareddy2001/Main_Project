@@ -5,20 +5,21 @@ public class Demo {
 
 public static void main(String args[])
 {
-List<Integer> list = new ArrayList<>();
+List<Object> list = new ArrayList<>();
 
-list.add(10);
-list.add(20);
-list.add(30);
+list.add(0,"dj");
+list.add(1,"og");
+list.add(2,"pg");
+list.add(3,"ab");
 
-ListIterator<Integer> it = list.listIterator();
 
-while(it.hasNext()){
-System.out.println(it.next());
+ListIterator<Object> li=list.listIterator();
+
+while(li.hasNext()) {
+	System.out.println(li.next());
 }
-
-while(it.hasPrevious()){
-System.out.println(it.previous());
+while(li.hasPrevious()){
+System.out.println(li.previous());
     }
-  }
+}
 }
