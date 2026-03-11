@@ -13,14 +13,12 @@ list.add(30);
 
 ListIterator<Integer> it = list.listIterator();
 
-while(it.hasNext())
-{
+while(it.hasNext()){
 System.out.println(it.next());
 }
 
-while(it.hasPrevious())
-{
+while(it.hasPrevious()){
 System.out.println(it.previous());
-}
-}
+    }
+  }
 }
